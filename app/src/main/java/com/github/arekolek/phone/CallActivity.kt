@@ -16,7 +16,7 @@ class CallActivity : AppCompatActivity() {
 
     private val disposables = CompositeDisposable()
 
-    private lateinit var number: String?
+    private lateinit var number:String
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
