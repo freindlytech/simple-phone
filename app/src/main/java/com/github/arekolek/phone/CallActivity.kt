@@ -16,12 +16,12 @@ class CallActivity : AppCompatActivity() {
 
     private val disposables = CompositeDisposable()
 
-    private lateinit var number:String?
+    private lateinit var number:String
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_call)
-        number = intent.data.schemeSpecificPart
+       // number = intent.data.schemeSpecificPart
     }
 
     override fun onStart() {
